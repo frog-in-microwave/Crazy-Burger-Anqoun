@@ -1,15 +1,26 @@
 body {
   margin: 0%;
+  padding: 0%;
   background-color: #fdad00;
 
 }
 
 
 .scroll_menu {
-    overflow: hidden;  
     width: 100%;  
-    overflow-x: scroll;
-    scrollbar-width: none;
+    height: 48px;
+    padding: 4px 2px;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    position: sticky;
+  }
+  .scroll_menu h1{
+    font-size: 40px;
+    color: #fdad00;
+    margin: 0%;
+    z-index: 11;
   }
   
   .menu_items {
@@ -18,15 +29,20 @@ body {
     padding: 0;
     display: flex;
     width: max-content;
+    overflow-x: scroll;
+    scrollbar-width: none;
   }
   
   .menu_items li {
-    padding: 10px 20px;
+    padding: 5px 15px;
     margin: 0 5px;
-    background-color: #f4f4f4;
-    border-radius: 5px;
+    background-color: #dadada;
+    border-radius: 15px;
     cursor: pointer;
-    color: #222;  
+    color: #222; 
+    font-weight: 550;
+    font-family: Arial;
+    border: 3px solid #fdad00; 
   }
   
   .menu_items li:hover {
@@ -41,7 +57,7 @@ a {
 }
 
 img {
-  width: calc(100% - 4px);
+  width: calc(100% - 2px);
   overflow: hidden;
   border: 2px solid #fdad00;
   border-bottom: 0px solid #fdad00;
@@ -52,12 +68,13 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0px;
+  background-color: #fdad00;
 }
 
 
 
 .footer {
-    background: #222;
+    background-color: #222;
     color: #fff;
     padding: 10px 0;
     font-family: Arial, sans-serif;
@@ -129,7 +146,7 @@ img {
 .social_icons a {
     color: #ffcc00;
     margin: 0 8px;
-    font-size: 20px;
+    font-size: 30px;
     transition: 0.3s;
 }
 
@@ -144,7 +161,12 @@ img {
     margin: 0%;
 }
 
-
+@media (max-width: 1050px) {
+    
+  .scroll_menu h1{
+    display: none;
+  }
+  }
 
 @media (max-width: 1000px) {
     #picture_grid {
