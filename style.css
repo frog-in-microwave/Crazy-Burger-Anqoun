@@ -1,6 +1,7 @@
 body {
   margin: 0%;
   background-color: #fdad00;
+
 }
 
 
@@ -8,7 +9,7 @@ body {
     overflow: hidden;  
     width: 100%;  
     overflow-x: scroll;
-    scrollbar-width: 0px;
+    scrollbar-width: none;
   }
   
   .menu_items {
@@ -16,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    width: max-content;  
+    width: max-content;
   }
   
   .menu_items li {
@@ -25,6 +26,7 @@ body {
     background-color: #f4f4f4;
     border-radius: 5px;
     cursor: pointer;
+    color: #222;  
   }
   
   .menu_items li:hover {
@@ -33,19 +35,23 @@ body {
 
 
 
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 img {
   width: calc(100% - 4px);
   overflow: hidden;
   border: 2px solid #fdad00;
-  border-bottom: none;
+  border-bottom: 0px solid #fdad00;
 }
 
 #picture_grid {
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px;
 }
 
 
