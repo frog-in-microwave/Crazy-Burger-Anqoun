@@ -8,6 +8,7 @@ body {
     overflow: hidden;  
     width: 100%;  
     overflow-x: scroll;
+    scrollbar-width: 0px;
   }
   
   .menu_items {
