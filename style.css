@@ -14,7 +14,6 @@ body {
     display: flex;
     justify-content: space-between;
     z-index: 10;
-    position: sticky;
   }
   .scroll_menu h1{
     font-size: 40px;
