@@ -1,19 +1,26 @@
 body {
   margin: 0%;
   padding: 0%;
-  background-color: #fdad00;
+  background-color: #222;
 
 }
-
+html {
+  background-color: #fdad00;
+}
 
 .scroll_menu {
     width: 100%;  
     height: 48px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
     padding: 4px 2px;
     background-color: #181818;
     display: flex;
     justify-content: space-between;
     z-index: 10;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
   }
   .scroll_menu h1{
     font-size: 40px;
@@ -68,6 +75,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0px;
   background-color: #fdad00;
+  margin-top: 48px;
 }
 
 
