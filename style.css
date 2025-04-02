@@ -40,14 +40,15 @@ html {
   }
   
   .menu_items li {
-    padding: 5px 15px;
+    padding: 2px 15px;
     margin: 0 5px;
-    background-color: #dadada;
+    background-color: #fdad00;
     border-radius: 15px;
     cursor: pointer;
     color: #222; 
     font-weight: 550;
-    font-family: Arial;
+    font-family: Bangers;
+    font-size: 20px;
     border: 3px solid #fdad00; 
   }
   
@@ -108,7 +109,9 @@ img {
 }
 #logo_section h2,
 .footer_section h3 {
-    color: #ffcc00;
+  font-family: bangers;
+  letter-spacing: 1px;
+  color: #ffcc00;
 }
 .links_section ul {
     list-style: none;
