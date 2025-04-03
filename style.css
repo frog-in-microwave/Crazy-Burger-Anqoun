@@ -23,7 +23,8 @@ html {
     border-bottom-left-radius: 5px;
   }
   .scroll_menu h1{
-    font-size: 40px;
+    font-size: 42px;
+    font-family: Bangers;
     color: #fdad00;
     margin: 0%;
     z-index: 11;
