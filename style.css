@@ -54,7 +54,7 @@ html {
   }
   
   .menu_items li:hover {
-    background-color: #ddd;
+    background-color: #ffffff;
   }
 
 
@@ -162,7 +162,7 @@ img {
 }
 
 .social_icons a:hover {
-    color: #fff;
+    color: #bbb;
 }
 
 
@@ -185,6 +185,14 @@ img {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 2px;
+    }
+    
+    .menu_items li:hover {
+      background-color: #fdad00;
+    }
+    .menu_items li:active {
+      color: #fdad00;
+      background-color: #181818;
     }
   }
   @media (max-width: 550px) {
