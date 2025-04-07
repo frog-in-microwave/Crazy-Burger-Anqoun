@@ -57,6 +57,10 @@ html {
     background-color: #ffffff;
   }
 
+  .menu_items li:active {
+    color: #fdad00;
+    background-color: #181818;
+  }
 
 
 a {
@@ -172,7 +176,7 @@ img {
     margin: 0%;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
     
   .scroll_menu h1{
     display: none;
@@ -189,10 +193,6 @@ img {
     
     .menu_items li:hover {
       background-color: #fdad00;
-    }
-    .menu_items li:active {
-      color: #fdad00;
-      background-color: #181818;
     }
   }
   @media (max-width: 550px) {
